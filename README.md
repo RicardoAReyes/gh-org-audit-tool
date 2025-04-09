@@ -74,8 +74,9 @@ You must use a Personal Access Token (PAT) with public_repo access to avoid stri
 
 `export GITHUB_TOKEN=ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXX`
 
----
+
 </br>
+
 ## 💻 How to Run Script
 
 `python github_org_report.py`
@@ -88,6 +89,7 @@ The script will:
 	* `all_orgs_contacts.xlsx` — with a sheet per org
 
 </br>
+
 ## 🧠 Notes on Behavior 
 
 * ✅ Smart Resuming
@@ -104,7 +106,7 @@ The script will:
 * ⚠️ Failed or retried requests are logged in failed_requests.log
 
 </br>
----
+
 
 ## 📂 Output Files
 			
@@ -127,9 +129,8 @@ CDCgov,some-repo,active,Python,04-06-2025,Jane Doe,jane@example.com,04-06-2025
 ```
 
 
-</br>
 ## 🛠 Tips
-* To clear the cache and start over:
-	* ``rm processed_repos.json``
-* To force-refresh an individual repo:
-	* Remove it manually from `processed_repos.json` and rerun the script.
+- To clear the cache and start over:
+  - ```rm processed_repos.json```
+- To force-refresh an individual repo:
+  - Remove it manually from ```processed_repos.json``` and rerun the script.
