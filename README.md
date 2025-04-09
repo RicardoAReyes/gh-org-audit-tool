@@ -79,7 +79,7 @@ You must use a Personal Access Token (PAT) with public_repo access to avoid stri
 
 ## 💻 How to Run Script
 
-`python github_org_report.py`
+`python gh-org-audit-reporter.py`
 
 The script will:
 
